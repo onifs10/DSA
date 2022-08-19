@@ -50,6 +50,9 @@ class Heap<T>{
     get size(){
         return this.array.length;
     }
+    get max(){
+        return this.array[0];
+    }
 }  
 
 export default Heap;
