@@ -6,12 +6,10 @@
  *  reducer performs the accumulation function
  */
 
+import { Container, Container2D } from "../../types/index.type";
 
-/**
- * a container with a contigious set of data;
- */
-export type Container<T> = Array<T> 
-export type Container2D<T> = Container<Container<T>>;
+
+
 
 /**
  * a reducer interface that handles the acccumulation logic 

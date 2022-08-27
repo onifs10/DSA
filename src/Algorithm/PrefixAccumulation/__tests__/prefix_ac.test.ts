@@ -1,4 +1,5 @@
-import type {Reducer, Container, Container2D} from "../index";
+import { Container, Container2D } from "../../../types/index.type";
+import type {Reducer} from "../index";
 import  {inplacePrefixAcc1D, prefixAcc1D, inplacePrefixAcc2D,prefixAcc2D,default2dReducer} from "../index";
 
 describe("Prefix accumulation 1D" , () => {
