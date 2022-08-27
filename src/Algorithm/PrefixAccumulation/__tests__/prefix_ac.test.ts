@@ -1,7 +1,6 @@
 import type {Reducer, Container} from "../index";
 import  {inplacePrefixAcc1D, prefixAcc1D} from "../index";
 
-
 describe("Prefix accumulation" , () => {
     it('test inplace accumulation', () => {
         const reducer: Reducer<number>  = (prefixSum, item) => prefixSum + item;
