@@ -1,7 +1,6 @@
+import { Compare } from "../../types/index.type";
+
 // interfaces
-export interface Compare<T> {
-    (a: T, b: T): boolean;
-}
 export interface MaxHeapify<T> {
     (array: Array<T>, index: number, compare: Compare<T>): void;
 }

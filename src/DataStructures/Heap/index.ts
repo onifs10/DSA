@@ -1,4 +1,5 @@
-import type {MaxHeapFuncs, Compare} from './helpers';
+import { Compare } from '../../types/index.type';
+import type {MaxHeapFuncs} from './helpers';
 import {createMaxHeap, swap} from './helpers';
 
 
