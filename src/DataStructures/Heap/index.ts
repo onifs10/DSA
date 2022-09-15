@@ -1,12 +1,12 @@
 import { Compare } from '../../types/index.type';
 import type {MaxHeapFuncs} from './helpers';
-import {createMaxHeap, swap} from './helpers';
+import {createMaxHeap} from './helpers';
 
 
 /**  max heap representation using arrays;
 * asymptotic complexity:
-*   - insert: O(nlog n)
-*   - extractMax: O(nlog n)
+*   - insert: O(nlogn)
+*   - extractMax: O(nlogn)
 * space complexity: O(n)
 *
 */
