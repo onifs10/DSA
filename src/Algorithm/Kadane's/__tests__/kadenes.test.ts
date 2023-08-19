@@ -1,4 +1,4 @@
-import {getMaxSum2D, kadane} from "../index";
+import { getMaxSum2D, kadane } from "../index";
 
 
 test("test Kadane's algorithm", () => {

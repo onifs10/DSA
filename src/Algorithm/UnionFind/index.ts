@@ -19,14 +19,13 @@
  * The disjoint–set also supports one other important operation called MakeSet
  * which creates a set containing only a given element in it.
  */
-import { threadId } from "worker_threads";
 import { Container2D } from "../../types/index.type";
 
 export class DisjointSet<T> {
   private setMap: Map<T, T>
   private setRank: Map<T, number>; 
   /**
-   * this contructore takes in a group of disjoint set. make sure there is no union within any two set
+   * this constructor takes in a group of disjoint set. make sure there is no union within any two set
    * @param sets Container<Container>
    */
   constructor(sets: Container2D<T>) {

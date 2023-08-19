@@ -1,7 +1,7 @@
 /**
  * Kadene's algorithm is an algorithm used to get the max sum of a sub array
  * 
- * loaclMaxSum[i] = max(loacalMaxSum[i -1], arr[i])
+ * localMaxSum[i] = max(localMaxSum[i -1], arr[i])
  * time complexity = O(n);
  */
 
